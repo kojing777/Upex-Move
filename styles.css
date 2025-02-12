@@ -1,0 +1,483 @@
+.header {
+  background-color: #f5f7f9;
+}
+
+.highlight {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #24b7b9;
+  font-weight: bold;
+}
+
+.divider {
+  margin: 0 5px;
+  color: #666;
+}
+
+.welcome-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #333;
+}
+
+#head {
+  padding: 5px;
+  display: inline-block;
+}
+
+.header-link {
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+#head a {
+  margin: 0 5px;
+  /* Spacing between icons */
+  font-size: 20px;
+  /* Adjust icon size */
+  color: #666;
+}
+
+/* NAV BAR CSS */
+.navbar {
+  background-color: #ebe3e3;
+  height: 80px;
+}
+
+.navbar-brand {
+  color: #24b7b9;
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+}
+@media (max-width: 768px) {
+  .btn-teal {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .features h2 {
+    font-size: 1.5rem;
+  }
+
+  .features p {
+    font-size: 0.9rem;
+  }
+
+  .feature-icon {
+    font-size: 40px;
+  }
+}
+
+.login-button {
+  background-color: #009970;
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 8px 20px;
+  transition: 0.3s background-color;
+  text-decoration: none;
+}
+
+.login-button:hover {
+  background-color: #00b383;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-link {
+  font: #666777;
+  font-weight: 500;
+  position: relative;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #24b7b9;
+}
+
+/* banner section start here */
+
+.banner {
+  background-image: url("./assets/truck-8643864_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 65px;
+  font-weight: bold;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.banner p {
+  font-size: 20px;
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 1.5rem;
+  }
+
+  .banner p {
+    font-size: 0.9rem;
+  }
+
+  .banner {
+    height: 350px;
+  }
+
+  .btn-teal,
+  .btn-outline-light {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}
+.btn-teal {
+  background-color: #008080;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+}
+
+.btn-teal:hover {
+  background-color: #006666;
+  color: #fff;
+}
+
+/* features  */
+.features {
+  background-color: #f9f9f9;
+}
+
+.features h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #008080;
+}
+
+.feature-icon {
+  font-size: 60px;
+  color: #008080;
+}
+
+.features p {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+/* background image css  */
+.section-bg {
+  background: url("./assets/welllllll.jpg") no-repeat center center;
+  background-size: cover;
+  height: 20%;
+  min-height: 500px;
+  /* Adjust height */
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.section-bg .text-black {
+  color: black !important;
+}
+
+#about {
+  color: rgb(13, 143, 175);
+}
+
+.container1 h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.kkkk {
+  text-align: center;
+}
+
+/* Container Styling */
+.container.KOI {
+  padding: 2rem 1rem;
+}
+
+/* Headings */
+.container.KOI h5,h6 {
+  color: #24b7b9;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.container.KOI h1 {
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #008080;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+.row #card1{
+ background-color: #008080;
+  
+}
+
+
+/* Buttons */
+.btn-teal {
+  background-color: #008080;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-teal:hover {
+  background-color: #006666;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container.KOI h1 {
+    font-size: 2rem;
+  }
+
+  .card-body {
+    padding: 1.5rem 1rem;
+  }
+
+  .btn-teal {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+  }
+}
+
+/* form */
+.HEHE {
+  background: url("./assets/truck-8643864_1280.jpg"); /* Background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  position: relative; /* Add spacing from the left edge */
+}
+.monk{
+  color:white;
+  background-color: aqua;
+  padding: 10px;
+  margin: 10px;
+}
+.contact-form {
+  background:white; /* Semi-transparent background for readability */
+  padding: 30px; /* Inner spacing */ /* Optional: Rounded corners */
+  width: 100%; /* Make form fill the column */
+  max-width: none;
+  margin: 65px; /* Remove width restriction */
+}
+
+.contact-form label {
+  color: white;
+}
+   /* Ensure labels are readable against the dark background */
+
+.btn-primary {
+  background-color: #007bff; /* Adjust button color */
+  border-color: #007bff;
+}
+
+.col-md-6 {
+  max-width: 50%; /* Ensure the column spans half the page width */
+}
+
+.contact-form label {
+  color: #fff; /* Ensure labels are readable against the dark background */
+}
+
+/* footer section */
+footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Primary Section */
+footer .hi {
+  background-color: #007b8f;
+}
+
+footer .hi h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+footer .hi p {
+  font-size: 1.1rem;
+}
+
+/* Light Section */
+footer .bg-light h5 {
+  margin-bottom: 1rem;
+}
+
+footer .bg-light p {
+  font-size: 1.01rem;
+}
+
+footer .bg-light a {
+  font-size: 0.9rem;
+}
+
+footer .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+footer .list-unstyled li:hover {
+  color: #007b8f;
+  text-decoration: underline;
+}
+#cap h5{
+  color:  #007b8f;
+  font-size: 25px;
+
+}
+/* Social Icons */
+footer .bi {
+  font-size: 1.2rem;
+}
+
+footer .bi:hover {
+  color: #007b8f;
+}
+
+/* Map Image */
+footer img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Copyright Section */
+footer .border-top {
+  border-top: 1px solid #ddd;
+}
+
+footer .border-top p {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+#jii {
+  color: #24b7b9;
+}
+#get {
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  justify-content: center;
+  margin: 10px;
+  padding: 20;
+}
+#get:hover {
+  background-color: #24b7b9;
+  color: white;
+}
+#bmk{
+  padding: 10px;
+  margin: 20px;
+}
+.form-group{
+  color: white;
+}
+#testimonials{
+  background:url(./assets/welllllll.jpg);
+
+}
+#testimonials h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#laaaa{
+  background-color: #24b7b9; 
+  border-radius: 12px;
+}
+#laaaa h4,h1{
+  color: white;
+  
+}
